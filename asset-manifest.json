@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/centinni-login-page/static/css/main.97e87560.chunk.css",
+    "main.js": "/centinni-login-page/static/js/main.28c7c630.chunk.js",
+    "main.js.map": "/centinni-login-page/static/js/main.28c7c630.chunk.js.map",
+    "runtime-main.js": "/centinni-login-page/static/js/runtime-main.5f967b4c.js",
+    "runtime-main.js.map": "/centinni-login-page/static/js/runtime-main.5f967b4c.js.map",
+    "static/js/2.832467e4.chunk.js": "/centinni-login-page/static/js/2.832467e4.chunk.js",
+    "static/js/2.832467e4.chunk.js.map": "/centinni-login-page/static/js/2.832467e4.chunk.js.map",
+    "index.html": "/centinni-login-page/index.html",
+    "precache-manifest.cb6b67bda8ef0427bd5f7223e6dda81e.js": "/centinni-login-page/precache-manifest.cb6b67bda8ef0427bd5f7223e6dda81e.js",
+    "service-worker.js": "/centinni-login-page/service-worker.js",
+    "static/css/main.97e87560.chunk.css.map": "/centinni-login-page/static/css/main.97e87560.chunk.css.map",
+    "static/js/2.832467e4.chunk.js.LICENSE.txt": "/centinni-login-page/static/js/2.832467e4.chunk.js.LICENSE.txt",
+    "static/media/facebook.8354e264.svg": "/centinni-login-page/static/media/facebook.8354e264.svg",
+    "static/media/google.09aea0f5.svg": "/centinni-login-page/static/media/google.09aea0f5.svg",
+    "static/media/twitter.c9f12008.svg": "/centinni-login-page/static/media/twitter.c9f12008.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f967b4c.js",
+    "static/js/2.832467e4.chunk.js",
+    "static/css/main.97e87560.chunk.css",
+    "static/js/main.28c7c630.chunk.js"
+  ]
+}
