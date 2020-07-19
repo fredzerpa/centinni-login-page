@@ -1,0 +1,85 @@
+$url-image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/71b2f647-19e8-4076-b8fa-f7f615e5c12a/de1cum3-41773e82-e08d-4971-82fa-e565705f67b7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzFiMmY2NDctMTllOC00MDc2LWI4ZmEtZjdmNjE1ZTVjMTJhXC9kZTFjdW0zLTQxNzczZTgyLWUwOGQtNDk3MS04MmZhLWU1NjU3MDVmNjdiNy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.YHQWQuzBGeUPeh9tJZLcBZ8LkgnqQPXv2V-oActqirg';
+
+$url-color: #3b66f5;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.ReactModal__Overlay {
+  display: flex;
+}
+
+.login-modal {
+  font-family: 'Nunito Sans', sans-serif;
+  border-radius: 0;
+  margin: auto;
+  width: 440px;
+  height: 600px;
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.85);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-image: url($url-image);
+  text-align: center;
+
+  .modal-header {
+    margin: 4rem 0 0;
+    height: 20%;
+  }
+
+  .logo {
+    h2 {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .modal-body {
+    height: 55%;
+    padding: 1rem 0;
+    
+    
+    .extra-info {
+      margin-top: .5rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+
+      .create-account-link {
+        text-decoration: none;
+        color: $url-color;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .login-buttons {
+      margin-top: 1rem;
+    }
+    
+  }
+
+  .modal-footer {
+    height: calc(25% - 4rem);
+    font-size: 0.8rem;
+    color: rgb(131, 132, 143);
+
+    a {
+      color: rgb(131, 132, 143);
+    }
+
+    i {
+      display: inline-block;
+      width: 0;
+      overflow: hidden;
+      text-indent: 9999px;
+      height: 0.8em;
+      margin: 0 0.3em;
+      vertical-align: middle;
+      border-left: 1px solid;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+$text-purple: #8A4FFF;
+
+.login-button {
+  cursor: pointer;
+	padding: 0.75rem 2.5rem;
+	border-radius: 2.5rem;
+	user-select: none;
+	margin-left: 1rem;
+  border: 2px solid;
+	background-color: transparent;
+	border-color: $text-purple;
+	color: $text-purple;
+}
