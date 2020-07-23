@@ -30,7 +30,10 @@ const LoginModal = ({ isOpen, handleCloseModal }) => (
           <SignIn />
           <div className='extra-info'>
             <p>
-              Don't have an account? <a href='#' className='create-account-link'>create account</a>
+              Don't have an account?{' '}
+              <a href='#' className='create-account-link'>
+                create account
+              </a>
             </p>
           </div>
         </div>
